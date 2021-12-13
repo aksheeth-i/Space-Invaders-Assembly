@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99
+-I.\RTE\_Lab10
+-I"C:\Users\The Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"
+-I"C:\Users\The Administrator\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"
+-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR
+-o .\lab10.o --omf_browse .\lab10.crf --depend .\lab10.d "Lab10.c"
